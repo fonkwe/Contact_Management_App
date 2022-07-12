@@ -6,7 +6,7 @@ import ContactList from './components/ContactList';
 
 function App() {
   const [contacts, setContacts] = useState([]);
-  addContactHandler = (contact) => {
+  const addContactHandler = (contact) => {
     console.log("contact");
     setContacts([...contacts, contact]);
   };
